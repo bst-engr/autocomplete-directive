@@ -3,8 +3,8 @@
  * Date:27 july 2016.
  * Description: contatins auto complete directives.
  */
-angular.module('bstAutoCompleteDirective', [])
-.directive('bstAutoComplete', ['$http', function($http) {
+angular.module('cbnAutoCompleteDirective', [])
+.directive('cbnAutoComplete', ['$http', function($http) {
     return {
         restrict: 'E',
         scope: {
