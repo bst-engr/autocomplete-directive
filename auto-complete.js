@@ -13,7 +13,7 @@ angular.module('cbnAutoCompleteDirective', [])
             onSelect: '&onSelect',
             validate: '&validate'
         },
-        templateUrl: '/v4config/app/cat-cables/auto-complete.html',
+        templateUrl: '/path/to/directory/for/auto-complete.html',
         link : directiveController//['$scope', '$http',directiveController]
     };
 
